@@ -1,14 +1,14 @@
-import { Canvas, useFrame } from "@react-three/fiber";
-import { OrbitControls, ContactShadows, Dodecahedron, useFBX } from "@react-three/drei";
+import { Canvas } from "@react-three/fiber";
+import { OrbitControls } from "@react-three/drei";
 import { useLoader } from "@react-three/fiber";
 import { AssetList } from "../../types/items";
 import { ListAssets } from "../ListAssets";
 import "./index.css";
 import { ModelLoader } from "../ModelLoader";
-import { ImageBitmapLoader, Texture, TextureLoader } from "three";
+import { Texture, TextureLoader } from "three";
 import { ModelSelector } from "../ModelSelector";
 import { useState } from "react";
-import { ModelName, ModelType } from "../../types/model";
+import { ModelName } from "../../types/model";
 
 export const Editor = () => {
   const items: AssetList = [
@@ -20,9 +20,10 @@ export const Editor = () => {
   const [selectedModel, setSelectedModel] = useState<ModelName>("box");
 
   const defaultMesh = useLoader(TextureLoader, "/images/mesh.jpg");
-  let [colorMap, setColorMap] = useState<Texture>(defaultMesh);
+  const [colorMap, setColorMap] = useState<Texture>(defaultMesh);
   const selectMapConfig = ({ src }: { src: string }) => {
-    let _colorMap = useLoader(TextureLoader, src);
+    // const _colorMap = useLoader(TextureLoader, src);
+    const _colorMap = new TextureLoader().load(src);
     setColorMap(_colorMap);
   };
   console.log("111", { colorMap });

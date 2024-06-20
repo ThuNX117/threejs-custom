@@ -1,5 +1,4 @@
 import { useGLTF } from "@react-three/drei";
-import { OBJLoader } from "three-stdlib";
 import * as THREE from "three";
 import { ModelName } from "../../types/model";
 type Props = {
@@ -8,10 +7,8 @@ type Props = {
 };
 
 export const ModelLoader = ({ colorMap, type }: Props) => {
-  let obj;
-  // const gltf = useGLTF("/mug/scene.gltf");
   const gltf = useGLTF("/mug/scene.gltf");
-  obj = gltf.scene;
+  const obj = gltf.scene;
   obj.traverse((child) => {
     if ((child as THREE.Mesh).isMesh) {
       const material = (child as THREE.Mesh).material as THREE.MeshStandardMaterial;

@@ -1,0 +1,33 @@
+.editor-sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 100%;
+  border-right: 1px solid black;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  height: 100%;
+}
+.item {
+  height: 200px;
+  width: 200px;
+}
+.option {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  padding: 10px;
+}
+.image {
+  height: 150px;
+  width: 180px;
+  object-fit: cover;
+  border: 1px solid black;
+}

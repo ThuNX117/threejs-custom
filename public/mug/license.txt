@@ -1,0 +1,8 @@
+Model Information:
+* title:	Gregg's Mug
+* source:	https://sketchfab.com/3d-models/greggs-mug-c51c5cbd482041e891fdf959271ed852
+* author:	LukeVissian (https://sketchfab.com/LukeVissian)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works

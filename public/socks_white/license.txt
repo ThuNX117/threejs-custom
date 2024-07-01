@@ -1,0 +1,11 @@
+Model Information:
+* title:	Socks White
+* source:	https://sketchfab.com/3d-models/socks-white-8f6b4783895f4a199b9535474000c4d0
+* author:	ym052411 (https://sketchfab.com/ym052411)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Socks White" (https://sketchfab.com/3d-models/socks-white-8f6b4783895f4a199b9535474000c4d0) by ym052411 (https://sketchfab.com/ym052411) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

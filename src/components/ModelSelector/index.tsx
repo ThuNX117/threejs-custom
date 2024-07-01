@@ -6,7 +6,7 @@ export const ModelSelector = ({
   selectOption: ModelName;
   onSelect: (type: ModelName) => void;
 }) => {
-  const options: ModelName[] = ["box", "sphere", "cone", "mug"];
+  const options: ModelName[] = ["box", "sphere", "cone", "model"];
   return (
     <fieldset className="border p-1">
       <legend>Select a maintenance drone: {selectOption}</legend>

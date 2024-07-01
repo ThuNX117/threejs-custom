@@ -19,7 +19,7 @@ export const ModelLoader = ({ colorMap, type }: Props) => {
   return (
     <mesh>
       <mesh>
-        {type == "spray" && <primitive object={obj} />}
+        {type == "model" && <primitive object={obj} />}
         {type == "mug" && <primitive object={obj} />}
         {type == "box" && <boxGeometry args={[5, 5, 5]} />}
         {type == "sphere" && <sphereGeometry args={[5, 5, 5]} />}
